@@ -1,0 +1,10 @@
+version: '3'
+services:
+  elastic:
+    image: "elasticsearch-6.5.3-bklr2.0.1:elastic-6.5.3"
+    ports: 
+      - "9200:9200"
+      - "9300:9300"
+    environment:
+      - discovery.type=single-node
+    network_mode: host

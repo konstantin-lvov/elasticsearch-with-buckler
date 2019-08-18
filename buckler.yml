@@ -1,0 +1,13 @@
+auth.basic.http.enabled: true
+auth.basic.tcp.enabled: true
+auth.basic.username: admin
+auth.basic.password: admin
+
+#tls.http.enabled: true
+#tls.tcp.enabled: true
+#tls.keystore.path: /path/to/keystore
+#tls.keystore.password: keystorepassword
+
+#If you enable TLS, the following block will need to be added to elasticsearch.yml
+#http.type: buckler
+#transport.type: buckle

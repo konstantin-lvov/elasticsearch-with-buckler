@@ -1,0 +1,4 @@
+action.auto_create_index: ".watches,.triggered_watches,.watcher-history-*"
+network.host: ${HOST_NETWORK}
+http.port: 9200
+xpack.security.enabled: false
