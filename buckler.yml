@@ -1,5 +1,4 @@
 auth.basic.http.enabled: true
-auth.basic.tcp.enabled: true
 auth.basic.username: admin
 auth.basic.password: admin
 
